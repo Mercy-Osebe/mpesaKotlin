@@ -1,5 +1,3 @@
 package com.example.mpesa.pojos
 
-class AccessTokenResponse {
-    val accessData:AccessTokenData?=null
-}
+data class AccessTokenResponse(val access_token:String, val expires_in:String)
